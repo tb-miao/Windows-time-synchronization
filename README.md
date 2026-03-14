@@ -22,7 +22,7 @@ Windows-time-synchronization工具是一个简单易用的时间同步脚本，�
 
 - Windows 10 或更高版本
 
-## 安装方法
+## 本地开发
 
 1. 克隆或下载本项目到本地
 
