@@ -1,7 +1,6 @@
 import os
 from datetime import datetime, timedelta, timezone
 import platform
-import requests
 import asyncio
 import aiohttp
 from time import sleep
@@ -65,14 +64,14 @@ async def get_internet_time_async(session):
             # 将 timestamp 转换为 datetime 对象
             internet_time = datetime.fromtimestamp(int(timestamp), timezone(timedelta(hours=8)))
             return internet_time
-    except requests.exceptions.RequestException as e:
+    except aiohttp.ClientError as e:
         print(f"{bcolors.RED}请求失败: {e}{bcolors.NC}")
         return None
 
 async def main_async():
     if not is_admin():
         ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
-        return
+        sys.exit(0)
     print("已获取管理员权限！")
     sleep(0.5)
     # 切换至UNF8编码
