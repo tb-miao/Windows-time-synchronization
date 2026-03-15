@@ -55,6 +55,7 @@ pip install -r requirements.txt
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request 来改进此项目。
+（第一次做这种项目，请大佬轻喷）
 
 ---
 
