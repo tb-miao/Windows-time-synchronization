@@ -1,0 +1,20 @@
+{
+  "name": "windows-time-synchronization",
+  "author": "Nachceko",
+  "github": "https://github.com/tb-miao/Windows-time-synchronization",
+  "private": true,
+  "version": "1.0.0",
+  "description": "windows 时间同步工具",
+  "type": "module",
+  "scripts": {
+    "release": "release-it",
+    "build": "start bulid.bat"
+  },
+  "keywords": [],
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "@release-it/conventional-changelog": "^11.0.0",
+    "release-it": "^20.0.1"
+  }
+}

@@ -1,7 +1,7 @@
 # Windows-time-synchronization , Windows 时间同步工具
 
 <div align="center">
-  <img src="./akquv-4xkjy-001.ico" alt="Logo">
+  <img src="./assets/icon/ico.ico" alt="Logo">
 </div>
 
 ![GitHub](https://img.shields.io/github/license/tb-miao/windows-time-synchronization?style=flat-square)

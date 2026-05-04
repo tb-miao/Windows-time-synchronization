@@ -76,7 +76,7 @@ async def main_async():
     sleep(0.5)
     # 切换至UNF8编码
     os.system("chcp 65001")
-    os.system("title Windows-time-synchronization by AUNya")
+    os.system("title Windows-time-synchronization by Nachceko")
     # 显示ASCII艺术字
     print("=================================================================")
     print("██╗    ██╗████████╗███████╗")
