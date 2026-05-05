@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "release": "release-it",
-    "build": "start bulid.bat"
+    "build": "echo 请使用工具"
   },
   "keywords": [],
   "license": "Apache-2.0",

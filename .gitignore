@@ -1,6 +1,13 @@
-/main.dist
-/main.build
+main.dist/
+main.build/
 main.exe
-/main.py - 快捷方式.lnk
-/dist
-/node_modules
+main.py - 快捷方式.lnk
+dist/
+node_modules/
+assets/build-tool/
+
+.venv/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
